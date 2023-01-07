@@ -2,10 +2,10 @@ body {
     background: linear-gradient(45deg, #000000cf, transparent);
 }
 
+/* Setting the box layout to a row */
 .aboutMe {
 
-    /* border: 2px solid black; */
-    /* width: 75px; */
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,9 +13,6 @@ body {
 }
 
 .div-h2 {
-
-    /* border: 2px solid black; */
-    /* width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -33,7 +30,6 @@ body {
 .h2 {
     margin: 0;
     display: flex;
-    /* border: 2px solid black; */
     flex-direction: column;
     justify-content: center;
     color: #546e7a;
@@ -42,8 +38,6 @@ body {
 
 
 .nav-ul {
-
-    /* border: 2px solid black; */
     margin-left: 10px;
     display: flex;
     justify-content: flex-end;
@@ -64,19 +58,19 @@ body {
     display: flex;
     gap: 10px;
     color: navajowhite;
-    /* border: 2px solid black; */
-    flex-direction: row;
     padding-right: 20px;
     padding-left: 15px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.li-div:hover {
 
+/* Changing the nav links to the color below when hovering over */
+.li-div:hover {
     background-color: rgb(55, 189, 194);
 
 }
 
+/* sets a slow fade in when hovering over the links with transition */
 .li-div {
     border: 2px black;
     border-style: outset;
@@ -98,22 +92,17 @@ li {
 }
 
 .picture {
-    /* border: 2px solid black; */
+
     display: flex;
     flex-wrap: wrap;
     background-repeat: no-repeat;
     height: 100px;
-    /* position: relative;
-    left: 0px;
-    top: 50px; */
+
     box-shadow: 10px 10px 10px rgb(83, 82, 82);
     margin: 10px;
     border-radius: 20px 20px 20px 20px;
 
 }
-
-
-
 
 
 .line-item1,
@@ -126,6 +115,7 @@ li {
 .line-item2 {
     height: 200px;
     width: 100%;
+    display: flex;
 }
 
 .line-item1 {
@@ -140,7 +130,6 @@ li {
     margin-top: 10px;
 }
 
-
 .my_work {
     display: flex;
     flex-direction: row;
@@ -148,18 +137,27 @@ li {
 
 }
 
-
-
 .h3_about_me {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.h4_paragraph {
+    display: flex;
+
+}
+
+.contact_me {
+    font-size: x-large;
 }
 
 .paragraph {
     margin: 10px;
     font-size: larger;
     flex-wrap: wrap;
+
 }
 
 .soon_box1,
@@ -172,8 +170,8 @@ li {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    /* box-shadow: 10px 5px 5px black; */
 
+    /* could not figure out how to group the soon_box classes to apply the transition hover effect without it affectin the whole document */
 }
 
 .soon_box1:hover {
