@@ -1,5 +1,13 @@
 @media screen and (min-width:700px) {
     .ul-li {
+        display: flex;
         flex-direction: row;
+    }
+
+
+    .about {
+        flex: 0 1 70%;
+
+
     }
 }

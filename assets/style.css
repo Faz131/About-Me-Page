@@ -70,7 +70,7 @@ body {
 
 }
 
-/* sets a slow fade in when hovering over the links with transition */
+/* This will proivde a little interactivity to users hoving over the link */
 .li-div {
     border: 2px black;
     border-style: outset;
@@ -97,7 +97,6 @@ li {
     flex-wrap: wrap;
     background-repeat: no-repeat;
     height: 100px;
-
     box-shadow: 10px 10px 10px rgb(83, 82, 82);
     margin: 10px;
     border-radius: 20px 20px 20px 20px;
@@ -160,7 +159,28 @@ li {
 
 }
 
-.soon_box1,
+
+
+.soon_box1 {
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.soon_box1 img {
+    width: 50%;
+    padding-bottom: 5px;
+
+}
+
+.soon_box1 a {
+    display: flex;
+    justify-content: center;
+}
+
 .soon_box2,
 .soon_box3 {
     border: 2px solid black;
